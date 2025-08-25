@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+    int i,n,r,multi=1;
+    printf("Enter multiplied number: ");
+    scanf("%d",&n);
+    printf("Enter multiplier range: ");
+    scanf("%d",&r);
+    printf("Multiplication Table:\n");
+    for (i=1; i<=r; i++)
+    {
+        multi=n*i;
+        printf("%d X %d = %d\n",n,i,multi);
+    }
+    return 0;
+}
