@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main()
+{
+    int i,j,r,num,multi=1;
+    printf ("Enter the multiplied limit: ");
+    scanf ("%d",&num);
+    printf ("Enter the multiplier limit: ");
+    scanf ("%d",&r);
+    printf ("Multiplication Tables: \n");
+    for (i=1; i<=num; i++)
+    {
+        for (j=1; j<=r; j++)
+        {
+            multi=j*i;
+            printf ("%d X %d = %d\n",i,j,multi);
+        }
+        printf ("\n");
+    }
+    return 0;
+}
